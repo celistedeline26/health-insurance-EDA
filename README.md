@@ -1,6 +1,5 @@
-# health-insurance-EDA
+# Health-Insurance-EDA
 Exploratory data analysis of health insurance data using Python
-# Exploratory Data Analysis of Health Insurance Costs
 
 ## Project Overview
 This project performs exploratory data analysis (EDA) on a health insurance dataset to identify key factors influencing medical insurance charges. The analysis demonstrates data cleaning, statistical exploration, correlation analysis, and data visualisation using Python.
@@ -56,7 +55,13 @@ Correlation analysis was performed to examine relationships between numerical va
 
 ---
 
+## Statistical Hypothesis Testing
+An independent two-sample t-test was conducted to compare the mean insurance charges between smokers and non-smokers. The test results showed a statistically significant difference in average charges, indicating that smoking status has a substantial impact on insurance costs.
+
+---
+
 ## Key Findings & Insights
+These findings are based on exploratory data analysis and descriptive statistics and indicate associations rather than causal relationships.
 - Smoking status is the strongest driver of higher insurance charges.
 - Insurance costs generally increase with age.
 - BMI shows a moderate relationship with insurance charges, particularly among smokers.
@@ -72,6 +77,14 @@ Based on the analysis, the following insights may support business decision-maki
 
 ---
 
+## Limitations
+- The analysis is exploratory and does not establish causal relationships.
+- The dataset represents a limited population and may not generalise to all insurance customers.
+- Some potentially important health factors (e.g. medical history, exercise habits) are not included.
+- Outliers may influence summary statistics and visual interpretations.
+
+---
+
 ## Tools & Technologies
 - Python (pandas, numpy, matplotlib, seaborn)
 - Jupyter Notebook
@@ -82,10 +95,10 @@ Based on the analysis, the following insights may support business decision-maki
 
 ## Tableau Dashboard
 A Tableau dashboard was created to visualise key insights from the analysis.  
-🔗 Tableau Public link will be added here.
+🔗 Tableau Public link will be added.
 
 ---
 
 ## Project Files
-- `health_insurance_eda.ipynb` – Jupyter Notebook containing data cleaning and analysis
-- `data/` – Raw dataset
+- 📓 [EDA Notebook](notebooks/health_insurance_eda.ipynb) – Data cleaning and analysis
+- 📁 [Dataset](data/insurance.csv) – Raw insurance data

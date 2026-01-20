@@ -100,5 +100,5 @@ A Tableau dashboard was created to visualise key insights from the analysis.
 ---
 
 ## Project Files
-- 📓 [EDA Notebook](notebooks/health_insurance_eda.ipynb) – Data cleaning and analysis
+- 📓 [EDA Notebook](notebooks/health_insurance_EDA.ipynb) – Data cleaning and analysis
 - 📁 [Dataset](data/insurance.csv) – Raw insurance data
